@@ -15651,6 +15651,8 @@ in
 
   dstat = callPackage ../os-specific/linux/dstat { };
 
+  elf2sgxs = callPackage ../os-specific/linux/elf2sgxs { };
+
   # unstable until the first 1.x release
   fscrypt-experimental = callPackage ../os-specific/linux/fscrypt { };
   fscryptctl-experimental = callPackage ../os-specific/linux/fscryptctl { };
@@ -23120,7 +23122,7 @@ in
   conglomerate = callPackage ../applications/science/biology/conglomerate { };
 
   dcm2niix = callPackage ../applications/science/biology/dcm2niix { };
-  
+
   delly = callPackage ../applications/science/biology/delly { };
 
   diamond = callPackage ../applications/science/biology/diamond { };
